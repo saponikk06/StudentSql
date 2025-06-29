@@ -33,3 +33,5 @@
 2. Создай базу данных:  
    ```bash
    createdb student_db
+3.Выполни скрипт:
+psql -U your_user -d student_db -f StudentSql.sql
